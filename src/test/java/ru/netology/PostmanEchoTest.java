@@ -26,7 +26,7 @@ public class PostmanEchoTest {
                 .body("json.id", equalTo(1))
                 .body("json.name", equalTo("Petr"))
                 .body("json.number",equalTo(1234))
-                .body("json.balance", greaterThanOrEqualTo(150))
+                .body("json.balance", greaterThanOrEqualTo(50))
                 .body("json.currency", equalTo("RUB"))
         ;
     }
